@@ -1,7 +1,8 @@
 function soma() {
-    const numero = el.dataset.numero;
-    const numero2 = el.dataset.numero2;
+    const numero = document.getElementById("numero").value;
+    const numero2 = document.getElementById("numero2").value;
 
-    let soma = numero + numero2
+    let soma = Number(numero) + Number(numero2);
+
     alert("A soma desses números é igual: " + soma);
 }
