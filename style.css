@@ -11,12 +11,36 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-label {
+h2 {
     font-weight: bold;
-    color: #333;
+    color: #271111;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 2px solid #271111;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 250px;}
+
+    .botoes-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
 
 button {
     margin-top: 10px;
@@ -26,5 +50,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     color: rgb(0, 0, 0);
-    
+     background-color: #e0e0e0;
+    transition: background-color 0.3s;
+   
 }
